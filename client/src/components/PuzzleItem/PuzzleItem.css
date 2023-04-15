@@ -1,0 +1,72 @@
+.puzzle-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .puzzle-item {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 100%;
+    padding: 50px;
+    background-color: #2f3136;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .puzzle-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 5%;
+    padding-left: 3rem;
+    height: 100%;
+    margin-right: 10px;
+    position: relative;
+  }
+  
+  .puzzle-image img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .puzzle-id {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #4f545c;
+    font-size: 12px;
+    padding: 2px 5px;
+    border-radius: 5px;
+  }
+  
+  .puzzle-description {
+    margin-bottom: 2rem;
+    flex: 1;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+  
+  .puzzle-numbers {
+    margin-bottom: 2rem;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+  
+  .puzzle-numbers span {
+    margin-right: 10px;
+  }
+  
+  .puzzle-result {
+    margin-bottom: 2rem;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .puzzle-result span {
+    margin-right: 10px;
+  }
+  
